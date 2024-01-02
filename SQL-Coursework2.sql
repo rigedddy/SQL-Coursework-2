@@ -253,13 +253,11 @@ JOIN adgd922_musicArtist a ON t.artistID = a.artistID;
 
 
 /* SECTION 6 - DELETE ROWS (make sure the SQL is commented out in this section)
-
 DELETE FROM adgd922_musicArtist
-WHERE username = "fairy" AND dateOfReg < "2015-03-21";
+WHERE username = "fairy";
 
 DELETE FROM adgd922_tracks
-WHERE title = "Luxxid";
-
+WHERE title = "Mamma Mia";
 */
 
 /* SECTION 7 - DROP TABLES (make sure the SQL is commented out in this section)
